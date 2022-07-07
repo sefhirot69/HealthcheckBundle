@@ -7,7 +7,7 @@
     <route
             id="health"
             path="/health"
-            controller="HealthCheckBundle\Shared\Controller\HealthController"
+            controller="Theater\Shared\Controller\HealthController"
             methods="GET"
     />
 </routes>

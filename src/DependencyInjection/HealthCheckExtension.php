@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HealthcheckBundle\Shared\DependencyInjection;
+namespace Theater\Shared\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

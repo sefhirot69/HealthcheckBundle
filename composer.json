@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "HealthcheckBundle\\Shared\\" : "src/"
+      "Theater\\Shared\\": "src/"
     }
   },
   "require-dev": {
@@ -23,7 +23,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "HealthcheckBundle\\Shared\\Tests\\" : "tests/"
+      "Theater\\Shared\\Tests\\" : "tests/"
     }
   }
 }

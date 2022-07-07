@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HealthCheckBundle\Shared;
+namespace Theater\Shared;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

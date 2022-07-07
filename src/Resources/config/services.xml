@@ -6,7 +6,7 @@
     <services>
         <defaults autowire="true" autoconfigure="true" />
 
-        <service public="true" id="HealthcheckBundle\Shared\HealthController" class="HealthcheckBundle\Shared\HealthController">
+        <service public="true" id="Theater\Shared\Controller\HealthController" class="Theater\Shared\Controller\HealthController">
             <tag name="container.service_subscriber" />
         </service>
     </services>

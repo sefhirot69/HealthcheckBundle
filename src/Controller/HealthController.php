@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HealthcheckBundle\Shared\Controller;
+namespace Theater\Shared\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
