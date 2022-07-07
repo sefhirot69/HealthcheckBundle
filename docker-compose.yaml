@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  healthcheck-bundle:
+    build:
+      context: .docker
+    container_name: 'healthcheck-bundle'
+    restart: 'unless-stopped'
+    volumes:
+      - ./:/var/www/html
+      - .docker/config/php.ini:/usr/local/etc/php/php.ini
+    environment:
+      XDEBUG_CONFIG: remote_host=host.docker.internal

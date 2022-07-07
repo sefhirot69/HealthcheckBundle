@@ -1,2 +1,29 @@
 {
+  "name": "sefhirot69/symfony-healthcheck-bundle",
+  "description": "Symfony health check bundle",
+  "type": "symfony-bundle",
+  "authors": [
+    {
+      "name": "Sefhi",
+      "email": "josalillo@gmail.com",
+      "role": "Backend Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "symfony/framework-bundle": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "HealthcheckBundle\\Shared\\" : "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5 || ^9.0"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "HealthcheckBundle\\Shared\\Tests\\" : "tests/"
+    }
+  }
 }
